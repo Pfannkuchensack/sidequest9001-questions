@@ -1,0 +1,74 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "answerType": "text",
+      "choices": ["London", "Paris", "Berlin", "Madrid"]
+    },
+    {
+      "id": 2,
+      "question": "What is the chemical symbol for gold?",
+      "answer": "Au",
+      "answerType": "text",
+      "choices": ["Go", "Gd", "Au", "Ag"]
+    },
+    {
+      "id": 3,
+      "question": "What is 12 × 12?",
+      "answer": "144",
+      "answerType": "number",
+      "numberRange": {"min": 100, "max": 200}
+    },
+    {
+      "id": 4,
+      "question": "In which year did the Berlin Wall fall?",
+      "answer": "1989",
+      "answerType": "number",
+      "numberRange": {"min": 1980, "max": 2000}
+    },
+    {
+      "id": 5,
+      "question": "Who is known as the father of computer science?",
+      "answer": "Alan Turing",
+      "answerType": "text",
+      "choices": ["Steve Jobs", "Bill Gates", "Alan Turing", "Tim Berners-Lee"]
+    },
+    {
+      "id": 6,
+      "question": "What is the highest-grossing film of all time (not adjusted for inflation)?",
+      "answer": "Avatar",
+      "answerType": "text",
+      "choices": ["Titanic", "Avengers: Endgame", "Avatar", "Star Wars"]
+    },
+    {
+      "id": 7,
+      "question": "How many players are on a soccer team on the field?",
+      "answer": "11",
+      "answerType": "number",
+      "numberRange": {"min": 1, "max": 20}
+    },
+    {
+      "id": 8,
+      "question": "What is the largest ocean on Earth?",
+      "answer": "Pacific Ocean",
+      "answerType": "text",
+      "choices": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"]
+    },
+    {
+      "id": 9,
+      "question": "What planet is known as the Red Planet?",
+      "answer": "Mars",
+      "answerType": "text",
+      "choices": ["Venus", "Mars", "Jupiter", "Saturn"]
+    },
+    {
+      "id": 10,
+      "question": "Which country has the most population?",
+      "answer": "India",
+      "answerType": "text",
+      "choices": ["China", "India", "United States", "Indonesia"]
+    }
+  ]
+}

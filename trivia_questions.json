@@ -1,0 +1,144 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Who directed the movie 'Inception'?",
+      "answer": "Christopher Nolan",
+      "answerType": "text",
+      "choices": ["Steven Spielberg", "Christopher Nolan", "James Cameron", "Quentin Tarantino"]
+    },
+    {
+      "id": 2,
+      "question": "Which band released the album 'Abbey Road'?",
+      "answer": "The Beatles",
+      "answerType": "text",
+      "choices": ["The Rolling Stones", "The Beatles", "Led Zeppelin", "Pink Floyd"]
+    },
+    {
+      "id": 3,
+      "question": "Who wrote '1984'?",
+      "answer": "George Orwell",
+      "answerType": "text",
+      "choices": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "Ernest Hemingway"]
+    },
+    {
+      "id": 4,
+      "question": "What country is the origin of pizza?",
+      "answer": "Italy",
+      "answerType": "text",
+      "choices": ["Greece", "Italy", "France", "Spain"]
+    },
+    {
+      "id": 5,
+      "question": "Who painted the Mona Lisa?",
+      "answer": "Leonardo da Vinci",
+      "answerType": "text",
+      "choices": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Vincent van Gogh"]
+    },
+    {
+      "id": 6,
+      "question": "In which year were the first modern Olympic Games held?",
+      "answer": "1896",
+      "answerType": "number",
+      "numberRange": {"min": 1850, "max": 1920}
+    },
+    {
+      "id": 7,
+      "question": "What is the best-selling video game of all time?",
+      "answer": "Minecraft",
+      "answerType": "text",
+      "choices": ["Tetris", "Minecraft", "Grand Theft Auto V", "Wii Sports"]
+    },
+    {
+      "id": 8,
+      "question": "What is the smallest country in the world?",
+      "answer": "Vatican City",
+      "answerType": "text",
+      "choices": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"]
+    },
+    {
+      "id": 9,
+      "question": "Who was the first person to walk on the moon?",
+      "answer": "Neil Armstrong",
+      "answerType": "text",
+      "choices": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "John Glenn"]
+    },
+    {
+      "id": 10,
+      "question": "In what year was the first iPhone released?",
+      "answer": "2007",
+      "answerType": "number",
+      "numberRange": {"min": 2000, "max": 2015}
+    },
+    {
+      "id": 11,
+      "question": "What is the fastest land animal?",
+      "answer": "Cheetah",
+      "answerType": "text",
+      "choices": ["Lion", "Cheetah", "Gazelle", "Horse"]
+    },
+    {
+      "id": 12,
+      "question": "What is the most spoken language in the world by native speakers?",
+      "answer": "Mandarin Chinese",
+      "answerType": "text",
+      "choices": ["English", "Spanish", "Mandarin Chinese", "Hindi"]
+    },
+    {
+      "id": 13,
+      "question": "In which city is the Eiffel Tower located?",
+      "answer": "Paris",
+      "answerType": "text",
+      "choices": ["London", "Paris", "Rome", "Berlin"]
+    },
+    {
+      "id": 14,
+      "question": "Who is the king of the gods in Greek mythology?",
+      "answer": "Zeus",
+      "answerType": "text",
+      "choices": ["Poseidon", "Hades", "Zeus", "Apollo"]
+    },
+    {
+      "id": 15,
+      "question": "What is the tallest mountain in the world?",
+      "answer": "Mount Everest",
+      "answerType": "text",
+      "choices": ["K2", "Mount Everest", "Kangchenjunga", "Lhotse"]
+    },
+    {
+      "id": 16,
+      "question": "Which fashion brand has a crocodile logo?",
+      "answer": "Lacoste",
+      "answerType": "text",
+      "choices": ["Ralph Lauren", "Lacoste", "Tommy Hilfiger", "Hugo Boss"]
+    },
+    {
+      "id": 17,
+      "question": "Who invented the telephone?",
+      "answer": "Alexander Graham Bell",
+      "answerType": "text",
+      "choices": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Benjamin Franklin"]
+    },
+    {
+      "id": 18,
+      "question": "How many moons does Mars have?",
+      "answer": "2",
+      "answerType": "number",
+      "numberRange": {"min": 0, "max": 10}
+    },
+    {
+      "id": 19,
+      "question": "What does BMW stand for?",
+      "answer": "Bayerische Motoren Werke",
+      "answerType": "text",
+      "choices": ["Berlin Motor Works", "Bayerische Motoren Werke", "British Motor Works", "Bavarian Machine Works"]
+    },
+    {
+      "id": 20,
+      "question": "What year did the TV show 'Friends' first air?",
+      "answer": "1994",
+      "answerType": "number",
+      "numberRange": {"min": 1990, "max": 2000}
+    }
+  ]
+}
