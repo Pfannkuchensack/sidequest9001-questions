@@ -2,70 +2,100 @@
   "questions": [
     {
       "id": 1,
-      "question": "What is the capital of France?",
+      "question": {
+        "en": "What is the capital of France?",
+        "de": "Was ist die Hauptstadt von Frankreich?"
+      },
       "answer": "Paris",
       "answerType": "text",
       "choices": ["London", "Paris", "Berlin", "Madrid"]
     },
     {
       "id": 2,
-      "question": "What is the chemical symbol for gold?",
+      "question": {
+        "en": "What is the chemical symbol for gold?",
+        "de": "Was ist das chemische Symbol für Gold?"
+      },
       "answer": "Au",
       "answerType": "text",
       "choices": ["Go", "Gd", "Au", "Ag"]
     },
     {
       "id": 3,
-      "question": "What is 12 × 12?",
+      "question": {
+        "en": "What is 12 × 12?",
+        "de": "Was ist 12 × 12?"
+      },
       "answer": "144",
       "answerType": "number",
       "numberRange": {"min": 100, "max": 200}
     },
     {
       "id": 4,
-      "question": "In which year did the Berlin Wall fall?",
+      "question": {
+        "en": "In which year did the Berlin Wall fall?",
+        "de": "In welchem Jahr fiel die Berliner Mauer?"
+      },
       "answer": "1989",
       "answerType": "number",
       "numberRange": {"min": 1980, "max": 2000}
     },
     {
       "id": 5,
-      "question": "Who is known as the father of computer science?",
+      "question": {
+        "en": "Who is known as the father of computer science?",
+        "de": "Wer gilt als Vater der Informatik?"
+      },
       "answer": "Alan Turing",
       "answerType": "text",
       "choices": ["Steve Jobs", "Bill Gates", "Alan Turing", "Tim Berners-Lee"]
     },
     {
       "id": 6,
-      "question": "What is the highest-grossing film of all time (not adjusted for inflation)?",
+      "question": {
+        "en": "What is the highest-grossing film of all time (not adjusted for inflation)?",
+        "de": "Was ist der umsatzstärkste Film aller Zeiten (nicht inflationsbereinigt)?"
+      },
       "answer": "Avatar",
       "answerType": "text",
       "choices": ["Titanic", "Avengers: Endgame", "Avatar", "Star Wars"]
     },
     {
       "id": 7,
-      "question": "How many players are on a soccer team on the field?",
+      "question": {
+        "en": "How many players are on a soccer team on the field?",
+        "de": "Wie viele Spieler stehen bei einer Fußballmannschaft auf dem Feld?"
+      },
       "answer": "11",
       "answerType": "number",
       "numberRange": {"min": 1, "max": 20}
     },
     {
       "id": 8,
-      "question": "What is the largest ocean on Earth?",
+      "question": {
+        "en": "What is the largest ocean on Earth?",
+        "de": "Was ist der größte Ozean der Erde?"
+      },
       "answer": "Pacific Ocean",
       "answerType": "text",
       "choices": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"]
     },
     {
       "id": 9,
-      "question": "What planet is known as the Red Planet?",
+      "question": {
+        "en": "What planet is known as the Red Planet?",
+        "de": "Welcher Planet wird der Rote Planet genannt?"
+      },
       "answer": "Mars",
       "answerType": "text",
       "choices": ["Venus", "Mars", "Jupiter", "Saturn"]
     },
     {
       "id": 10,
-      "question": "Which country has the most population?",
+      "question": {
+        "en": "Which country has the most population?",
+        "de": "Welches Land hat die meisten Einwohner?"
+      },
       "answer": "India",
       "answerType": "text",
       "choices": ["China", "India", "United States", "Indonesia"]

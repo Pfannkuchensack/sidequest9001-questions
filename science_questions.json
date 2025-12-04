@@ -2,105 +2,150 @@
   "questions": [
     {
       "id": 1,
-      "question": "What is the speed of light in vacuum (in km/s)?",
+      "question": {
+        "en": "What is the speed of light in vacuum (in km/s)?",
+        "de": "Was ist die Lichtgeschwindigkeit im Vakuum (in km/s)?"
+      },
       "answer": "299792",
       "answerType": "number",
       "numberRange": {"min": 250000, "max": 350000}
     },
     {
       "id": 2,
-      "question": "What is the atomic number of carbon?",
+      "question": {
+        "en": "What is the atomic number of carbon?",
+        "de": "Was ist die Ordnungszahl von Kohlenstoff?"
+      },
       "answer": "6",
       "answerType": "number",
       "numberRange": {"min": 1, "max": 20}
     },
     {
       "id": 3,
-      "question": "What is the powerhouse of the cell?",
+      "question": {
+        "en": "What is the powerhouse of the cell?",
+        "de": "Was ist das Kraftwerk der Zelle?"
+      },
       "answer": "Mitochondria",
       "answerType": "text",
       "choices": ["Nucleus", "Ribosome", "Mitochondria", "Chloroplast"]
     },
     {
       "id": 4,
-      "question": "How many planets are in our solar system?",
+      "question": {
+        "en": "How many planets are in our solar system?",
+        "de": "Wie viele Planeten gibt es in unserem Sonnensystem?"
+      },
       "answer": "8",
       "answerType": "number",
       "numberRange": {"min": 1, "max": 15}
     },
     {
       "id": 5,
-      "question": "Who developed the theory of relativity?",
+      "question": {
+        "en": "Who developed the theory of relativity?",
+        "de": "Wer entwickelte die Relativitätstheorie?"
+      },
       "answer": "Albert Einstein",
       "answerType": "text",
       "choices": ["Isaac Newton", "Albert Einstein", "Niels Bohr", "Stephen Hawking"]
     },
     {
       "id": 6,
-      "question": "What is the chemical formula for water?",
+      "question": {
+        "en": "What is the chemical formula for water?",
+        "de": "Was ist die chemische Formel für Wasser?"
+      },
       "answer": "H2O",
       "answerType": "text",
       "choices": ["H2O", "CO2", "O2", "H2O2"]
     },
     {
       "id": 7,
-      "question": "How many chromosomes do humans have?",
+      "question": {
+        "en": "How many chromosomes do humans have?",
+        "de": "Wie viele Chromosomen hat der Mensch?"
+      },
       "answer": "46",
       "answerType": "number",
       "numberRange": {"min": 20, "max": 60}
     },
     {
       "id": 8,
-      "question": "What is the closest star to Earth?",
+      "question": {
+        "en": "What is the closest star to Earth?",
+        "de": "Was ist der nächste Stern zur Erde?"
+      },
       "answer": "Sun",
       "answerType": "text",
       "choices": ["Alpha Centauri", "Proxima Centauri", "Sun", "Sirius"]
     },
     {
       "id": 9,
-      "question": "What is the SI unit of force?",
+      "question": {
+        "en": "What is the SI unit of force?",
+        "de": "Was ist die SI-Einheit der Kraft?"
+      },
       "answer": "Newton",
       "answerType": "text",
       "choices": ["Joule", "Watt", "Newton", "Pascal"]
     },
     {
       "id": 10,
-      "question": "What is the pH of pure water at 25°C?",
+      "question": {
+        "en": "What is the pH of pure water at 25°C?",
+        "de": "Was ist der pH-Wert von reinem Wasser bei 25°C?"
+      },
       "answer": "7",
       "answerType": "number",
       "numberRange": {"min": 0, "max": 14}
     },
     {
       "id": 11,
-      "question": "What is DNA an abbreviation for?",
+      "question": {
+        "en": "What is DNA an abbreviation for?",
+        "de": "Wofür steht die Abkürzung DNA?"
+      },
       "answer": "Deoxyribonucleic Acid",
       "answerType": "text",
       "choices": ["Deoxyribonucleic Acid", "Dinitrogen Acid", "Dynamic Neural Acid", "Dextrose Nucleic Acid"]
     },
     {
       "id": 12,
-      "question": "How long does it take for light from the Sun to reach Earth (in minutes)?",
+      "question": {
+        "en": "How long does it take for light from the Sun to reach Earth (in minutes)?",
+        "de": "Wie lange braucht das Licht von der Sonne zur Erde (in Minuten)?"
+      },
       "answer": "8",
       "answerType": "number",
       "numberRange": {"min": 1, "max": 20}
     },
     {
       "id": 13,
-      "question": "What is absolute zero in Celsius?",
+      "question": {
+        "en": "What is absolute zero in Celsius?",
+        "de": "Was ist der absolute Nullpunkt in Celsius?"
+      },
       "answer": "-273.15",
       "answerType": "number",
       "numberRange": {"min": -300, "max": 0}
     },
     {
       "id": 14,
-      "question": "What is the most abundant gas in Earth's atmosphere?",
+      "question": {
+        "en": "What is the most abundant gas in Earth's atmosphere?",
+        "de": "Was ist das häufigste Gas in der Erdatmosphäre?"
+      },
       "answer": "Nitrogen",
       "answerType": "text",
       "choices": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Argon"]
     },
     {
       "id": 15,
-      "question": "What is the largest organ in the human body?",
+      "question": {
+        "en": "What is the largest organ in the human body?",
+        "de": "Was ist das größte Organ des menschlichen Körpers?"
+      },
       "answer": "Skin",
       "answerType": "text",
       "choices": ["Liver", "Brain", "Skin", "Heart"]

@@ -2,168 +2,243 @@
   "questions": [
     {
       "id": 1,
-      "question": "What is the capital of Germany? (Multiple Choice - Text)",
+      "question": {
+        "en": "What is the capital of Germany? (Multiple Choice - Text)",
+        "de": "Was ist die Hauptstadt von Deutschland? (Multiple Choice - Text)"
+      },
       "answer": "Berlin",
       "answerType": "text",
       "choices": ["Munich", "Berlin", "Hamburg", "Frankfurt"]
     },
     {
       "id": 2,
-      "question": "What is the square root of 144? (Multiple Choice - Number)",
+      "question": {
+        "en": "What is the square root of 144? (Multiple Choice - Number)",
+        "de": "Was ist die Quadratwurzel von 144? (Multiple Choice - Zahl)"
+      },
       "answer": "12",
       "answerType": "number",
-      "numberRange": {"min": 1, "max": 20},
+      "numberRange": {"min": 1, "max": 20}
     },
     {
       "id": 3,
-      "question": "What is the chemical symbol for iron? (Free Text - Short Answer)",
+      "question": {
+        "en": "What is the chemical symbol for iron? (Free Text - Short Answer)",
+        "de": "Was ist das chemische Symbol für Eisen? (Freitext - Kurzantwort)"
+      },
       "answer": "Fe",
       "answerType": "text"
     },
     {
       "id": 4,
-      "question": "How many continents are there? (Numeric - Simple Number)",
+      "question": {
+        "en": "How many continents are there? (Numeric - Simple Number)",
+        "de": "Wie viele Kontinente gibt es? (Numerisch - Einfache Zahl)"
+      },
       "answer": "7",
       "answerType": "number",
       "numberRange": {"min": 1, "max": 10}
     },
     {
       "id": 5,
-      "question": "In which year did World War II end? (Numeric - Year)",
+      "question": {
+        "en": "In which year did World War II end? (Numeric - Year)",
+        "de": "In welchem Jahr endete der Zweite Weltkrieg? (Numerisch - Jahr)"
+      },
       "answer": "1945",
       "answerType": "number",
       "numberRange": {"min": 1940, "max": 1950}
     },
     {
       "id": 6,
-      "question": "What is the value of Pi (to 2 decimal places)? (Numeric - Decimal)",
+      "question": {
+        "en": "What is the value of Pi (to 2 decimal places)? (Numeric - Decimal)",
+        "de": "Was ist der Wert von Pi (auf 2 Dezimalstellen)? (Numerisch - Dezimal)"
+      },
       "answer": "3.14",
       "answerType": "number",
       "numberRange": {"min": 3, "max": 4}
     },
     {
       "id": 7,
-      "question": "What is the speed of light in km/s? (Numeric - Large Number)",
+      "question": {
+        "en": "What is the speed of light in km/s? (Numeric - Large Number)",
+        "de": "Was ist die Lichtgeschwindigkeit in km/s? (Numerisch - Große Zahl)"
+      },
       "answer": "299792",
       "answerType": "number",
       "numberRange": {"min": 250000, "max": 350000}
     },
     {
       "id": 8,
-      "question": "What is the largest planet in our solar system? (Free Text - One Word)",
+      "question": {
+        "en": "What is the largest planet in our solar system? (Free Text - One Word)",
+        "de": "Was ist der größte Planet in unserem Sonnensystem? (Freitext - Ein Wort)"
+      },
       "answer": "Jupiter",
       "answerType": "text"
     },
     {
       "id": 9,
-      "question": "Who wrote 'Romeo and Juliet'? (Free Text - Multiple Words)",
+      "question": {
+        "en": "Who wrote 'Romeo and Juliet'? (Free Text - Multiple Words)",
+        "de": "Wer schrieb 'Romeo und Julia'? (Freitext - Mehrere Wörter)"
+      },
       "answer": "William Shakespeare",
       "answerType": "text"
     },
     {
       "id": 10,
-      "question": "Is the Earth flat? (Multiple Choice - Yes/No)",
+      "question": {
+        "en": "Is the Earth flat? (Multiple Choice - Yes/No)",
+        "de": "Ist die Erde flach? (Multiple Choice - Ja/Nein)"
+      },
       "answer": "No",
       "answerType": "text",
       "choices": ["Yes", "No"]
     },
     {
       "id": 11,
-      "question": "Water boils at 100°C at sea level. (Multiple Choice - True/False)",
+      "question": {
+        "en": "Water boils at 100°C at sea level. (Multiple Choice - True/False)",
+        "de": "Wasser kocht bei 100°C auf Meereshöhe. (Multiple Choice - Wahr/Falsch)"
+      },
       "answer": "True",
       "answerType": "text",
       "choices": ["True", "False"]
     },
     {
       "id": 12,
-      "question": "Which of these is a primary color? (Multiple Choice - 6 Options)",
+      "question": {
+        "en": "Which of these is a primary color? (Multiple Choice - 6 Options)",
+        "de": "Welche davon ist eine Primärfarbe? (Multiple Choice - 6 Optionen)"
+      },
       "answer": "Red",
       "answerType": "text",
       "choices": ["Green", "Orange", "Purple", "Red", "Pink", "Brown"]
     },
     {
       "id": 13,
-      "question": "What is absolute zero in Celsius? (Numeric - Negative Number)",
+      "question": {
+        "en": "What is absolute zero in Celsius? (Numeric - Negative Number)",
+        "de": "Was ist der absolute Nullpunkt in Celsius? (Numerisch - Negative Zahl)"
+      },
       "answer": "-273.15",
       "answerType": "number",
       "numberRange": {"min": -300, "max": 0}
     },
     {
       "id": 14,
-      "question": "What is the name of the first person on the moon? (Free Text - Name)",
+      "question": {
+        "en": "What is the name of the first person on the moon? (Free Text - Name)",
+        "de": "Wie heißt der erste Mensch auf dem Mond? (Freitext - Name)"
+      },
       "answer": "Neil Armstrong",
       "answerType": "text"
     },
     {
       "id": 15,
-      "question": "In which city is the Colosseum located? (Free Text - Place)",
+      "question": {
+        "en": "In which city is the Colosseum located? (Free Text - Place)",
+        "de": "In welcher Stadt befindet sich das Kolosseum? (Freitext - Ort)"
+      },
       "answer": "Rome",
       "answerType": "text"
     },
     {
       "id": 16,
-      "question": "What does HTML stand for? (Multiple Choice - Abbreviation)",
+      "question": {
+        "en": "What does HTML stand for? (Multiple Choice - Abbreviation)",
+        "de": "Wofür steht HTML? (Multiple Choice - Abkürzung)"
+      },
       "answer": "HyperText Markup Language",
       "answerType": "text",
       "choices": ["HyperText Markup Language", "Home Tool Markup Language", "Hyperlinks Text Mode Language", "High Tech Modern Language"]
     },
     {
       "id": 17,
-      "question": "What percentage of Earth's surface is covered by water (rounded)? (Numeric - Percentage)",
+      "question": {
+        "en": "What percentage of Earth's surface is covered by water (rounded)? (Numeric - Percentage)",
+        "de": "Wie viel Prozent der Erdoberfläche ist mit Wasser bedeckt (gerundet)? (Numerisch - Prozent)"
+      },
       "answer": "71",
       "answerType": "number",
       "numberRange": {"min": 50, "max": 90}
     },
     {
       "id": 18,
-      "question": "What is the chemical formula for table salt? (Free Text - Chemical Formula)",
+      "question": {
+        "en": "What is the chemical formula for table salt? (Free Text - Chemical Formula)",
+        "de": "Was ist die chemische Formel für Kochsalz? (Freitext - Chemische Formel)"
+      },
       "answer": "NaCl",
       "answerType": "text"
     },
     {
       "id": 19,
-      "question": "When is Independence Day in the United States? (Multiple Choice - Date)",
+      "question": {
+        "en": "When is Independence Day in the United States? (Multiple Choice - Date)",
+        "de": "Wann ist der Unabhängigkeitstag in den USA? (Multiple Choice - Datum)"
+      },
       "answer": "July 4th",
       "answerType": "text",
       "choices": ["July 1st", "July 4th", "August 4th", "June 4th"]
     },
     {
       "id": 20,
-      "question": "How many bones are in the adult human body? (Numeric - Count)",
+      "question": {
+        "en": "How many bones are in the adult human body? (Numeric - Count)",
+        "de": "Wie viele Knochen hat der erwachsene menschliche Körper? (Numerisch - Anzahl)"
+      },
       "answer": "206",
       "answerType": "number",
       "numberRange": {"min": 150, "max": 250}
     },
     {
       "id": 21,
-      "question": "What is the distance from Earth to the Moon in km (average)? (Numeric - Large Distance)",
+      "question": {
+        "en": "What is the distance from Earth to the Moon in km (average)? (Numeric - Large Distance)",
+        "de": "Wie groß ist die Entfernung von der Erde zum Mond in km (Durchschnitt)? (Numerisch - Große Entfernung)"
+      },
       "answer": "384400",
       "answerType": "number",
       "numberRange": {"min": 300000, "max": 500000}
     },
     {
       "id": 22,
-      "question": "Which ocean is larger? (Multiple Choice - Comparison)",
+      "question": {
+        "en": "Which ocean is larger? (Multiple Choice - Comparison)",
+        "de": "Welcher Ozean ist größer? (Multiple Choice - Vergleich)"
+      },
       "answer": "Pacific Ocean",
       "answerType": "text",
       "choices": ["Atlantic Ocean", "Pacific Ocean"]
     },
     {
       "id": 23,
-      "question": "What is the process by which plants make their food called? (Free Text - Scientific Term)",
+      "question": {
+        "en": "What is the process by which plants make their food called? (Free Text - Scientific Term)",
+        "de": "Wie heißt der Prozess, durch den Pflanzen ihre Nahrung herstellen? (Freitext - Wissenschaftlicher Begriff)"
+      },
       "answer": "Photosynthesis",
       "answerType": "text"
     },
     {
       "id": 24,
-      "question": "How many minutes are there in a day? (Numeric - Time Duration)",
+      "question": {
+        "en": "How many minutes are there in a day? (Numeric - Time Duration)",
+        "de": "Wie viele Minuten hat ein Tag? (Numerisch - Zeitdauer)"
+      },
       "answer": "1440",
       "answerType": "number",
       "numberRange": {"min": 1000, "max": 2000}
     },
     {
       "id": 25,
-      "question": "What comes after Thursday? (Multiple Choice - Order/Sequence)",
+      "question": {
+        "en": "What comes after Thursday? (Multiple Choice - Order/Sequence)",
+        "de": "Was kommt nach Donnerstag? (Multiple Choice - Reihenfolge)"
+      },
       "answer": "Friday",
       "answerType": "text",
       "choices": ["Wednesday", "Friday", "Saturday", "Sunday"]
