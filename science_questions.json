@@ -26,9 +26,17 @@
         "en": "What is the powerhouse of the cell?",
         "de": "Was ist das Kraftwerk der Zelle?"
       },
-      "answer": "Mitochondria",
+      "answer": {
+        "en": "Mitochondria",
+        "de": "Mitochondrien"
+      },
       "answerType": "text",
-      "choices": ["Nucleus", "Ribosome", "Mitochondria", "Chloroplast"]
+      "choices": [
+        {"en": "Nucleus", "de": "Zellkern"},
+        {"en": "Ribosome", "de": "Ribosom"},
+        {"en": "Mitochondria", "de": "Mitochondrien"},
+        {"en": "Chloroplast", "de": "Chloroplast"}
+      ]
     },
     {
       "id": 4,
@@ -76,9 +84,17 @@
         "en": "What is the closest star to Earth?",
         "de": "Was ist der nächste Stern zur Erde?"
       },
-      "answer": "Sun",
+      "answer": {
+        "en": "Sun",
+        "de": "Sonne"
+      },
       "answerType": "text",
-      "choices": ["Alpha Centauri", "Proxima Centauri", "Sun", "Sirius"]
+      "choices": [
+        "Alpha Centauri",
+        "Proxima Centauri",
+        {"en": "Sun", "de": "Sonne"},
+        "Sirius"
+      ]
     },
     {
       "id": 9,
@@ -106,9 +122,17 @@
         "en": "What is DNA an abbreviation for?",
         "de": "Wofür steht die Abkürzung DNA?"
       },
-      "answer": "Deoxyribonucleic Acid",
+      "answer": {
+        "en": "Deoxyribonucleic Acid",
+        "de": "Desoxyribonukleinsäure"
+      },
       "answerType": "text",
-      "choices": ["Deoxyribonucleic Acid", "Dinitrogen Acid", "Dynamic Neural Acid", "Dextrose Nucleic Acid"]
+      "choices": [
+        {"en": "Deoxyribonucleic Acid", "de": "Desoxyribonukleinsäure"},
+        {"en": "Dinitrogen Acid", "de": "Distickstoffsäure"},
+        {"en": "Dynamic Neural Acid", "de": "Dynamische Neuralsäure"},
+        {"en": "Dextrose Nucleic Acid", "de": "Dextrose-Nukleinsäure"}
+      ]
     },
     {
       "id": 12,
@@ -136,9 +160,17 @@
         "en": "What is the most abundant gas in Earth's atmosphere?",
         "de": "Was ist das häufigste Gas in der Erdatmosphäre?"
       },
-      "answer": "Nitrogen",
+      "answer": {
+        "en": "Nitrogen",
+        "de": "Stickstoff"
+      },
       "answerType": "text",
-      "choices": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Argon"]
+      "choices": [
+        {"en": "Oxygen", "de": "Sauerstoff"},
+        {"en": "Nitrogen", "de": "Stickstoff"},
+        {"en": "Carbon Dioxide", "de": "Kohlendioxid"},
+        {"en": "Argon", "de": "Argon"}
+      ]
     },
     {
       "id": 15,
@@ -146,9 +178,17 @@
         "en": "What is the largest organ in the human body?",
         "de": "Was ist das größte Organ des menschlichen Körpers?"
       },
-      "answer": "Skin",
+      "answer": {
+        "en": "Skin",
+        "de": "Haut"
+      },
       "answerType": "text",
-      "choices": ["Liver", "Brain", "Skin", "Heart"]
+      "choices": [
+        {"en": "Liver", "de": "Leber"},
+        {"en": "Brain", "de": "Gehirn"},
+        {"en": "Skin", "de": "Haut"},
+        {"en": "Heart", "de": "Herz"}
+      ]
     }
   ]
 }

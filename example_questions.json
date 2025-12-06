@@ -6,9 +6,17 @@
         "en": "What is the capital of France?",
         "de": "Was ist die Hauptstadt von Frankreich?"
       },
-      "answer": "Paris",
+      "answer": {
+        "en": "Paris",
+        "de": "Paris"
+      },
       "answerType": "text",
-      "choices": ["London", "Paris", "Berlin", "Madrid"]
+      "choices": [
+        {"en": "London", "de": "London"},
+        {"en": "Paris", "de": "Paris"},
+        {"en": "Berlin", "de": "Berlin"},
+        {"en": "Madrid", "de": "Madrid"}
+      ]
     },
     {
       "id": 2,
@@ -76,9 +84,17 @@
         "en": "What is the largest ocean on Earth?",
         "de": "Was ist der größte Ozean der Erde?"
       },
-      "answer": "Pacific Ocean",
+      "answer": {
+        "en": "Pacific Ocean",
+        "de": "Pazifischer Ozean"
+      },
       "answerType": "text",
-      "choices": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"]
+      "choices": [
+        {"en": "Atlantic Ocean", "de": "Atlantischer Ozean"},
+        {"en": "Indian Ocean", "de": "Indischer Ozean"},
+        {"en": "Pacific Ocean", "de": "Pazifischer Ozean"},
+        {"en": "Arctic Ocean", "de": "Arktischer Ozean"}
+      ]
     },
     {
       "id": 9,
@@ -96,9 +112,17 @@
         "en": "Which country has the most population?",
         "de": "Welches Land hat die meisten Einwohner?"
       },
-      "answer": "India",
+      "answer": {
+        "en": "India",
+        "de": "Indien"
+      },
       "answerType": "text",
-      "choices": ["China", "India", "United States", "Indonesia"]
+      "choices": [
+        {"en": "China", "de": "China"},
+        {"en": "India", "de": "Indien"},
+        {"en": "United States", "de": "Vereinigte Staaten"},
+        {"en": "Indonesia", "de": "Indonesien"}
+      ]
     }
   ]
 }

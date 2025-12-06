@@ -36,9 +36,17 @@
         "en": "What country is the origin of pizza?",
         "de": "Aus welchem Land stammt die Pizza?"
       },
-      "answer": "Italy",
+      "answer": {
+        "en": "Italy",
+        "de": "Italien"
+      },
       "answerType": "text",
-      "choices": ["Greece", "Italy", "France", "Spain"]
+      "choices": [
+        {"en": "Greece", "de": "Griechenland"},
+        {"en": "Italy", "de": "Italien"},
+        {"en": "France", "de": "Frankreich"},
+        {"en": "Spain", "de": "Spanien"}
+      ]
     },
     {
       "id": 5,
@@ -76,9 +84,17 @@
         "en": "What is the smallest country in the world?",
         "de": "Was ist das kleinste Land der Welt?"
       },
-      "answer": "Vatican City",
+      "answer": {
+        "en": "Vatican City",
+        "de": "Vatikanstadt"
+      },
       "answerType": "text",
-      "choices": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"]
+      "choices": [
+        "Monaco",
+        {"en": "Vatican City", "de": "Vatikanstadt"},
+        "San Marino",
+        "Liechtenstein"
+      ]
     },
     {
       "id": 9,
@@ -106,9 +122,17 @@
         "en": "What is the fastest land animal?",
         "de": "Was ist das schnellste Landtier?"
       },
-      "answer": "Cheetah",
+      "answer": {
+        "en": "Cheetah",
+        "de": "Gepard"
+      },
       "answerType": "text",
-      "choices": ["Lion", "Cheetah", "Gazelle", "Horse"]
+      "choices": [
+        {"en": "Lion", "de": "Löwe"},
+        {"en": "Cheetah", "de": "Gepard"},
+        {"en": "Gazelle", "de": "Gazelle"},
+        {"en": "Horse", "de": "Pferd"}
+      ]
     },
     {
       "id": 12,
@@ -116,9 +140,17 @@
         "en": "What is the most spoken language in the world by native speakers?",
         "de": "Was ist die meistgesprochene Sprache der Welt nach Muttersprachlern?"
       },
-      "answer": "Mandarin Chinese",
+      "answer": {
+        "en": "Mandarin Chinese",
+        "de": "Mandarin-Chinesisch"
+      },
       "answerType": "text",
-      "choices": ["English", "Spanish", "Mandarin Chinese", "Hindi"]
+      "choices": [
+        {"en": "English", "de": "Englisch"},
+        {"en": "Spanish", "de": "Spanisch"},
+        {"en": "Mandarin Chinese", "de": "Mandarin-Chinesisch"},
+        "Hindi"
+      ]
     },
     {
       "id": 13,

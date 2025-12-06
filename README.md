@@ -55,9 +55,13 @@ The system also supports the legacy single-language format for backwards compati
 - **question** (string OR object, required): The question text
   - As string: Single language text
   - As object: `{"en": "English text", "de": "German text"}` for multilingual support
-- **answer** (string, required): The correct answer
+- **answer** (string OR object, required): The correct answer
+  - As string: Single language answer (e.g., `"Paris"`, `"42"`)
+  - As object: `{"en": "Pacific Ocean", "de": "Pazifischer Ozean"}` for multilingual answers
 - **answerType** (string, required): Type of answer - `"text"`, `"number"`, or `"task"` (default: `"text"`)
-- **choices** (array, optional): Multiple choice options for UI. If provided, must include the correct answer
+- **choices** (array, optional): Multiple choice options for UI
+  - Each choice can be a string or multilingual object
+  - Must include the correct answer
 - **numberRange** (object, optional): For `answerType: "number"` - defines min/max values: `{"min": 1, "max": 100}`
 - **taskDuration** (number, optional): For `answerType: "task"` - duration in seconds (default: 300)
 
@@ -76,6 +80,30 @@ Questions with text options that players select from.
   "answer": "Berlin",
   "answerType": "text",
   "choices": ["Munich", "Berlin", "Hamburg", "Frankfurt"]
+}
+```
+
+#### Fully Multilingual (Question, Answer, and Choices)
+For answers that differ between languages:
+
+```json
+{
+  "id": 8,
+  "question": {
+    "en": "What is the largest ocean on Earth?",
+    "de": "Was ist der größte Ozean der Erde?"
+  },
+  "answer": {
+    "en": "Pacific Ocean",
+    "de": "Pazifischer Ozean"
+  },
+  "answerType": "text",
+  "choices": [
+    {"en": "Atlantic Ocean", "de": "Atlantischer Ozean"},
+    {"en": "Indian Ocean", "de": "Indischer Ozean"},
+    {"en": "Pacific Ocean", "de": "Pazifischer Ozean"},
+    {"en": "Arctic Ocean", "de": "Arktischer Ozean"}
+  ]
 }
 ```
 

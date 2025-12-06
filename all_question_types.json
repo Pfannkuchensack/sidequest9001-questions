@@ -8,7 +8,12 @@
       },
       "answer": "Berlin",
       "answerType": "text",
-      "choices": ["Munich", "Berlin", "Hamburg", "Frankfurt"]
+      "choices": [
+        {"en": "Munich", "de": "München"},
+        "Berlin",
+        "Hamburg",
+        "Frankfurt"
+      ]
     },
     {
       "id": 2,
@@ -93,9 +98,15 @@
         "en": "Is the Earth flat? (Multiple Choice - Yes/No)",
         "de": "Ist die Erde flach? (Multiple Choice - Ja/Nein)"
       },
-      "answer": "No",
+      "answer": {
+        "en": "No",
+        "de": "Nein"
+      },
       "answerType": "text",
-      "choices": ["Yes", "No"]
+      "choices": [
+        {"en": "Yes", "de": "Ja"},
+        {"en": "No", "de": "Nein"}
+      ]
     },
     {
       "id": 11,
@@ -103,9 +114,15 @@
         "en": "Water boils at 100°C at sea level. (Multiple Choice - True/False)",
         "de": "Wasser kocht bei 100°C auf Meereshöhe. (Multiple Choice - Wahr/Falsch)"
       },
-      "answer": "True",
+      "answer": {
+        "en": "True",
+        "de": "Wahr"
+      },
       "answerType": "text",
-      "choices": ["True", "False"]
+      "choices": [
+        {"en": "True", "de": "Wahr"},
+        {"en": "False", "de": "Falsch"}
+      ]
     },
     {
       "id": 12,
@@ -113,9 +130,19 @@
         "en": "Which of these is a primary color? (Multiple Choice - 6 Options)",
         "de": "Welche davon ist eine Primärfarbe? (Multiple Choice - 6 Optionen)"
       },
-      "answer": "Red",
+      "answer": {
+        "en": "Red",
+        "de": "Rot"
+      },
       "answerType": "text",
-      "choices": ["Green", "Orange", "Purple", "Red", "Pink", "Brown"]
+      "choices": [
+        {"en": "Green", "de": "Grün"},
+        {"en": "Orange", "de": "Orange"},
+        {"en": "Purple", "de": "Lila"},
+        {"en": "Red", "de": "Rot"},
+        {"en": "Pink", "de": "Rosa"},
+        {"en": "Brown", "de": "Braun"}
+      ]
     },
     {
       "id": 13,
@@ -142,7 +169,10 @@
         "en": "In which city is the Colosseum located? (Free Text - Place)",
         "de": "In welcher Stadt befindet sich das Kolosseum? (Freitext - Ort)"
       },
-      "answer": "Rome",
+      "answer": {
+        "en": "Rome",
+        "de": "Rom"
+      },
       "answerType": "text"
     },
     {
@@ -180,9 +210,17 @@
         "en": "When is Independence Day in the United States? (Multiple Choice - Date)",
         "de": "Wann ist der Unabhängigkeitstag in den USA? (Multiple Choice - Datum)"
       },
-      "answer": "July 4th",
+      "answer": {
+        "en": "July 4th",
+        "de": "4. Juli"
+      },
       "answerType": "text",
-      "choices": ["July 1st", "July 4th", "August 4th", "June 4th"]
+      "choices": [
+        {"en": "July 1st", "de": "1. Juli"},
+        {"en": "July 4th", "de": "4. Juli"},
+        {"en": "August 4th", "de": "4. August"},
+        {"en": "June 4th", "de": "4. Juni"}
+      ]
     },
     {
       "id": 20,
@@ -210,9 +248,15 @@
         "en": "Which ocean is larger? (Multiple Choice - Comparison)",
         "de": "Welcher Ozean ist größer? (Multiple Choice - Vergleich)"
       },
-      "answer": "Pacific Ocean",
+      "answer": {
+        "en": "Pacific Ocean",
+        "de": "Pazifischer Ozean"
+      },
       "answerType": "text",
-      "choices": ["Atlantic Ocean", "Pacific Ocean"]
+      "choices": [
+        {"en": "Atlantic Ocean", "de": "Atlantischer Ozean"},
+        {"en": "Pacific Ocean", "de": "Pazifischer Ozean"}
+      ]
     },
     {
       "id": 23,
@@ -220,7 +264,10 @@
         "en": "What is the process by which plants make their food called? (Free Text - Scientific Term)",
         "de": "Wie heißt der Prozess, durch den Pflanzen ihre Nahrung herstellen? (Freitext - Wissenschaftlicher Begriff)"
       },
-      "answer": "Photosynthesis",
+      "answer": {
+        "en": "Photosynthesis",
+        "de": "Fotosynthese"
+      },
       "answerType": "text"
     },
     {
@@ -239,9 +286,17 @@
         "en": "What comes after Thursday? (Multiple Choice - Order/Sequence)",
         "de": "Was kommt nach Donnerstag? (Multiple Choice - Reihenfolge)"
       },
-      "answer": "Friday",
+      "answer": {
+        "en": "Friday",
+        "de": "Freitag"
+      },
       "answerType": "text",
-      "choices": ["Wednesday", "Friday", "Saturday", "Sunday"]
+      "choices": [
+        {"en": "Wednesday", "de": "Mittwoch"},
+        {"en": "Friday", "de": "Freitag"},
+        {"en": "Saturday", "de": "Samstag"},
+        {"en": "Sunday", "de": "Sonntag"}
+      ]
     }
   ]
 }
